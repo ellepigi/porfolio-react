@@ -63,8 +63,8 @@ export default function Projects  () {
         <img src="/projects/todo.png" alt="#"/></a></div>
       <p>Just a very simple To do list...
 </p>
-<div className="buttons">
-<button  className='html'>Html & CSS</button>
+<div className="card-buttons">
+<button  disabled className='html'>Html & CSS</button>
 <button disabled className='javascript'>Javascript</button>
 
 </div>
@@ -77,7 +77,7 @@ export default function Projects  () {
       <p>An ecommerce made with React, i used "Fake Store" api for the products and npm react-cart
         for the cart... still needs some changes though!
 </p>
-<div className="buttons">
+<div className="card-buttons">
 <button disabled>React</button>
 </div>
     </div>

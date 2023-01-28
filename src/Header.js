@@ -16,7 +16,8 @@ export default function Header  () {
   <img src='/undraw.png' className='background'></img>
    <div className='intro'>
     <div className='container'>
-    <h1 id='greeting'>Hi, i'm <span>Ludovico</span>!</h1>
+    <h1 id='greeting'>&#128075;
+Hi, i'm <span>Ludovico</span>!</h1>
     </div>
     <h2>I'm a "semi" self-taught Junior Frontend Developer.<br/> If you're interested, check out my skills and my code!</h2>
     <div className='buttons'>

@@ -5,7 +5,8 @@ import Projects from './Projects';
 import Contact from './Contact';
 
 function App() {
-  return (<div className='q'>
+  return (<div >
+ 
     <Nav></Nav>
     <Header/>
     <Projects></Projects>

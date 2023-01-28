@@ -118,7 +118,8 @@ header{
   }
 
   .buttons{
-   opacity: 1;
+   display: flex;
+   gap: 10px;
   
   }
 
@@ -128,7 +129,7 @@ header{
     cursor: pointer;
     padding: 10px;
     border: 0px solid black;
-    /* border-radius: 10px; */
+    border-radius: 5px;
     transition: all 0.1s ease-in-out;
     background-color: #6363ff;
     color: white;
@@ -229,8 +230,11 @@ h2{
   font-size: 1rem;
 }
 .background{
-  transform: scale(0.5);
-  right: -350px;
+  display:none;
+}
+
+header{
+  background-color: #afb3e6;
 }
 }
 @media (max-width:500px){
@@ -245,10 +249,21 @@ h2{
   .logos{
     width:60vw;
   }
-  .skills img{
-    height: 1.5rem;
-    width: auto;
-   }
+  
   }
 
+
+  
+@media (min-width: 1700px){
+  .background{
+    right: 0px;
+    transform: scale(1.5);
+  }
+}
+
+@media (min-height: 1000px){
+  .background{
+    top: 250px;
+  }
+}
   

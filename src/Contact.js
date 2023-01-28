@@ -35,13 +35,15 @@ export default function Contact  () {
 <section id='contact'>
 
    <div className='form'>
-   <form name="contact" method="POST" data-netlify="true">
+   <form name="contact" method="POST" >
+   <input type="hidden" name="form-name" value="contact" />
+
       <label form='name'>
-      <input type="text" placeholder='Your Name' name="name"></input></label>
+      <input type="text" placeholder='Your Name' name="name" required></input></label>
       <label form='email'>
-      <input type="text" placeholder='Your email' name="email"></input></label>
+      <input type="text" placeholder='Your email' name="email" required></input></label>
       <label form="message"> 
-      <textarea placeholder='Your Message' name="message"></textarea></label> 
+      <textarea placeholder='Your Message' name="message" required></textarea></label> 
       <div className="button-div">    
       <button type='submit' className='button1'>Submit</button>
       </div> 
